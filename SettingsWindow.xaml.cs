@@ -451,13 +451,16 @@ namespace radiant_noether
 
             foreach (var member in MemberInfo.Members)
             {
+                var memberCol = member.GetThemeColor(isLight);
+                var memberBrush = member.GetThemeBrush(isLight);
+
                 var contentStack = new StackPanel { Orientation = Orientation.Horizontal, VerticalAlignment = VerticalAlignment.Center };
 
                 var dot = new System.Windows.Shapes.Ellipse
                 {
-                    Width = 8,
-                    Height = 8,
-                    Fill = new SolidColorBrush(member.ThemeColor),
+                    Width = 9,
+                    Height = 9,
+                    Fill = memberBrush,
                     Margin = new Thickness(0, 0, 8, 0),
                     VerticalAlignment = VerticalAlignment.Center
                 };
@@ -475,7 +478,7 @@ namespace radiant_noether
 
                 var txtSub = new TextBlock
                 {
-                    Text = $" ({member.NameEn})",
+                    Text = $" ({member.NameEn}) · {member.ColorName}",
                     Foreground = isLight ? new SolidColorBrush(Color.FromRgb(120, 120, 128)) : new SolidColorBrush(Color.FromRgb(160, 160, 160)),
                     FontSize = 11,
                     VerticalAlignment = VerticalAlignment.Center
@@ -493,13 +496,13 @@ namespace radiant_noether
                     IsChecked = isSelected
                 };
 
-                // 테마 및 선택 상태에 따른 라디오 배경 및 보더 적용
+                // 테마 및 선택 상태에 따른 라디오 배경 및 보더 적용 (선택 시 해당 멤버 상징색 하이라이트)
                 if (isLight)
                 {
                     if (isSelected)
                     {
-                        rb.Background = new SolidColorBrush(Color.FromArgb(24, 0, 122, 255));
-                        rb.BorderBrush = new SolidColorBrush(Color.FromRgb(0, 122, 255));
+                        rb.Background = new SolidColorBrush(Color.FromArgb(24, memberCol.R, memberCol.G, memberCol.B));
+                        rb.BorderBrush = memberBrush;
                         rb.BorderThickness = new Thickness(1.5);
                     }
                     else
@@ -513,8 +516,8 @@ namespace radiant_noether
                 {
                     if (isSelected)
                     {
-                        rb.Background = new SolidColorBrush(Color.FromArgb(45, 224, 64, 96));
-                        rb.BorderBrush = new SolidColorBrush(Color.FromRgb(224, 64, 96));
+                        rb.Background = new SolidColorBrush(Color.FromArgb(45, memberCol.R, memberCol.G, memberCol.B));
+                        rb.BorderBrush = memberBrush;
                         rb.BorderThickness = new Thickness(1.5);
                     }
                     else

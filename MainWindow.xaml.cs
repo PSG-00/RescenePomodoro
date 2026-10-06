@@ -317,6 +317,22 @@ namespace radiant_noether
             TxtMember.Text = memberName;
             TxtMemberStd.Text = memberName;
 
+            bool isLight = _settings.IsLightTheme;
+            var memberCol = currentMember.GetThemeColor(isLight);
+            var memberBrush = currentMember.GetThemeBrush(isLight);
+
+            // 멤버 뱃지 스타일을 해당 멤버의 상징색에 맞게 적용
+            byte mBgAlpha = isLight ? (byte)22 : (byte)38;
+            byte mBorderAlpha = isLight ? (byte)55 : (byte)85;
+            var memberBadgeBg = new SolidColorBrush(Color.FromArgb(mBgAlpha, memberCol.R, memberCol.G, memberCol.B));
+            var memberBadgeBorder = new SolidColorBrush(Color.FromArgb(mBorderAlpha, memberCol.R, memberCol.G, memberCol.B));
+            MemberBadge.Background = memberBadgeBg;
+            MemberBadge.BorderBrush = memberBadgeBorder;
+            MemberBadgeStd.Background = memberBadgeBg;
+            MemberBadgeStd.BorderBrush = memberBadgeBorder;
+            TxtMember.Foreground = memberBrush;
+            TxtMemberStd.Foreground = memberBrush;
+
             int curSession = _timer.CurrentSessionInCycle;
             int totSession = _timer.TotalSessionsInCycle;
             TxtSessionCompact.Text = $"{curSession}/{totSession}";
@@ -327,7 +343,6 @@ namespace radiant_noether
             ProgressStd.Value = ratio;
             TxtRingPercent.Text = $"{_timer.ProgressPercent}%";
 
-            bool isLight = _settings.IsLightTheme;
             Brush accentBrush;
             string modeName;
 
@@ -336,22 +351,13 @@ namespace radiant_noether
                 case PomodoroMode.Focus:
                     modeName = LocalizationManager.Get("Focus");
                     TxtMode.Text = modeName;
-                    if (isLight)
-                    {
-                        accentBrush = new SolidColorBrush(Color.FromRgb(255, 45, 85));
-                        BadgeDot.Fill = accentBrush;
-                        ModeBadge.Background = new SolidColorBrush(Color.FromArgb(24, 255, 45, 85));
-                        ModeBadge.BorderBrush = new SolidColorBrush(Color.FromArgb(50, 255, 45, 85));
-                        TxtMode.Foreground = new SolidColorBrush(Color.FromRgb(217, 26, 66));
-                    }
-                    else
-                    {
-                        accentBrush = new SolidColorBrush(Color.FromRgb(255, 75, 110));
-                        BadgeDot.Fill = accentBrush;
-                        ModeBadge.Background = new SolidColorBrush(Color.FromArgb(45, 255, 75, 110));
-                        ModeBadge.BorderBrush = new SolidColorBrush(Color.FromArgb(90, 255, 75, 110));
-                        TxtMode.Foreground = Brushes.White;
-                    }
+                    accentBrush = memberBrush;
+                    BadgeDot.Fill = accentBrush;
+                    byte fBgAlpha = isLight ? (byte)22 : (byte)45;
+                    byte fBorderAlpha = isLight ? (byte)55 : (byte)95;
+                    ModeBadge.Background = new SolidColorBrush(Color.FromArgb(fBgAlpha, memberCol.R, memberCol.G, memberCol.B));
+                    ModeBadge.BorderBrush = new SolidColorBrush(Color.FromArgb(fBorderAlpha, memberCol.R, memberCol.G, memberCol.B));
+                    TxtMode.Foreground = isLight ? (currentMember.Id == "liv" ? Brushes.Black : accentBrush) : Brushes.White;
                     break;
                 case PomodoroMode.Break:
                     modeName = LocalizationManager.Get("Break");

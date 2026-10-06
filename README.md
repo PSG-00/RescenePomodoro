@@ -1,6 +1,6 @@
 # ✨ RESCENE 데스크톱 뽀모도로 위젯 (RESCENE Pomodoro Pet)
 
-[![Version](https://img.shields.io/badge/Release-v1.0.0-007AFF?style=for-the-badge&logo=github)](https://github.com/PSG-00/RescenePomodoro/releases)
+[![Version](https://img.shields.io/badge/Release-v1.0.1-007AFF?style=for-the-badge&logo=github)](https://github.com/PSG-00/RescenePomodoro/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10_%7C_11_(x64)-0078D6?style=for-the-badge&logo=windows)](https://github.com/PSG-00/RescenePomodoro/releases)
 [![RAM Usage](https://img.shields.io/badge/RAM_Optimized-~26MB-28CD41?style=for-the-badge&logo=speedtest)](https://github.com/PSG-00/RescenePomodoro)
 [![Developer](https://img.shields.io/badge/Developer-PSG--00-black?style=for-the-badge&logo=github)](https://github.com/PSG-00)
@@ -18,7 +18,7 @@
 
 | 파일 형식 | 설명 | 다운로드 링크 |
 | :--- | :--- | :---: |
-| **📦 ZIP 풀 패키지 (권장)** | 단일 exe + 기본 이미지 10종 + 음성 안내문 + 실행 파일 일체형 압축본 | [**⬇️ RescenePomodoro-v1.0.0-win-x64.zip**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-v1.0.0-win-x64.zip) |
+| **📦 ZIP 풀 패키지 (권장)** | 단일 exe + 기본 이미지 10종 + 음성 안내문 + 실행 파일 일체형 압축본 | [**⬇️ RescenePomodoro-v1.0.1-win-x64.zip**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-v1.0.1-win-x64.zip) |
 | **🚀 단일 실행 파일 (EXE)** | 무설치 단일 실행 파일 (실행 시 기본 리소스 자동 복원) | [**⬇️ RescenePomodoro.exe**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro.exe) |
 
 > 📌 지난 버전 및 변경 내역은 **[GitHub Releases 페이지](https://github.com/PSG-00/RescenePomodoro/releases)**에서 언제든 확인하실 수 있습니다.
@@ -63,12 +63,14 @@
 
 ---
 
-## 🌸 리센느 5인 멤버 지원
-* **원이 (Woni)**: 시그니처 핑크 테마
-* **리브 (Liv)**: 시그니처 라벤더 테마
-* **미나미 (Minami)**: 시그니처 아쿠아 블루 테마
-* **메이 (May)**: 시그니처 민트 테마
-* **제나 (Zena)**: 시그니처 골드 옐로우 테마
+## 🌸 리센느 5인 멤버별 공식 상징색 테마 지원
+각 멤버를 선택하면 **위젯의 시계 원형 링 게이지, 프로그레스 바, 멤버 뱃지, 조작 버튼**이 해당 멤버의 공식 상징색 테마로 화려하게 연동됩니다:
+
+* 💚 **원이 (WONI)**: **Watercourse (`#045a42`)** — 깊은 숲과 생명력을 담은 포레스트 에메랄드 그린
+* 🖤 **리브 (LIV)**: **Black (`#000000`)** — 시크한 피치 챠콜 블랙 & 다크모드 눈부심 방지 플래티넘 실버 (`#E2E8F0`)
+* 💙 **미나미 (MINAMI)**: **Pelorous (`#2b99c4`)** — 맑고 청량한 펠로러스 오션 블루
+* 💛 **메이 (MAY)**: **Portica (`#ecd25b`)** — 따스하고 화사하게 빛나는 포르티카 골든 옐로우
+* 💜 **제나 (ZENA)**: **Biloba Flower (`#ba92db`)** — 신비롭고 우아한 빌로바 플라워 라벤더 바이올렛
 
 > 캐릭터 우클릭 ➔ **[👤 리센느 멤버 선택]** 또는 **[⚙ 상세 설정]**에서 언제든 멤버를 바꿀 수 있습니다.
 
