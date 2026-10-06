@@ -15,6 +15,8 @@
         SnapsToDevicePixels="True"
         TextOptions.TextFormattingMode="Display"
         TextOptions.TextRenderingMode="ClearType"
+        TextOptions.TextHintingMode="Fixed"
+        RenderOptions.ClearTypeHint="Enabled"
         FontFamily="Segoe UI Variable Text, Segoe UI, Malgun Gothic"
         Closing="SettingsWindow_Closing">
 

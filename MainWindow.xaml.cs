@@ -561,7 +561,16 @@ namespace radiant_noether
             var sepStyle = (Style)FindResource("FluentMenuSeparator");
 
             bool isLight = _settings.IsLightTheme;
-            var menu = new ContextMenu { Style = menuStyle };
+            var menu = new ContextMenu 
+            { 
+                Style = menuStyle,
+                SnapsToDevicePixels = true,
+                UseLayoutRounding = true
+            };
+            RenderOptions.SetClearTypeHint(menu, ClearTypeHint.Enabled);
+            TextOptions.SetTextFormattingMode(menu, TextFormattingMode.Display);
+            TextOptions.SetTextRenderingMode(menu, TextRenderingMode.ClearType);
+            TextOptions.SetTextHintingMode(menu, TextHintingMode.Fixed);
 
             if (isLight)
             {
