@@ -29,17 +29,18 @@
 
 ---
 
-### 📦 설치 및 실행 방법 (Quick Start)
+### 📦 다운로드 및 설치 (Dual Editions)
 
-본 프로그램은 **.NET 런타임이 없어도 바로 실행 가능한 무설치 단일 파일(Standalone)**로 제작되었습니다.
+취향과 PC 환경에 따라 **2가지 에디션** 중 선택하여 다운로드하실 수 있습니다:
 
-#### 방법 1. 풀 패키지 ZIP 다운로드 (권장 ⭐)
-1. 아래 첨부 파일에서 **`RescenePomodoro-v1.0.0-win-x64.zip`**을 다운로드합니다.
-2. 원하는 폴더에 압축을 풉니다.
-3. `RescenePomodoro.exe`를 더블클릭하여 바로 실행합니다! (기본 이미지 및 안내문 포함)
+#### ⚡ 1. 초경량 에디션 (Lightweight, 약 15MB)
+* **특징**: 다운로드 용량이 약 15MB로 매우 작고 가볍습니다. (.NET 8 런타임 공유)
+* **파일**: `RescenePomodoro-v1.0.1-Lightweight-win-x64.zip` 또는 `RescenePomodoro-Lightweight.exe`
+* **요구사항**: Windows PC에 [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)이 설치되어 있어야 합니다.
 
-#### 방법 2. 단일 파일 EXE 다운로드
-* **`RescenePomodoro.exe`** 파일 하나만 다운로드하여 바탕화면 어디서든 바로 실행하실 수 있습니다. (실행 시 필요한 기본 리소스가 자동 생성됩니다)
+#### 📦 2. 완전 독립 에디션 (Standalone, 약 100MB)
+* **특징**: .NET 런타임이 파일 내부에 완벽히 포함되어 있어, 별도의 설치 없이 어떤 PC에서도 즉시 실행됩니다.
+* **파일**: `RescenePomodoro-v1.0.1-Standalone-win-x64.zip` 또는 `RescenePomodoro-Standalone.exe`
 
 ---
 

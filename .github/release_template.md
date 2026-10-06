@@ -15,7 +15,7 @@
 
 ---
 
-### 📦 다운로드 및 실행 방법
+### 📦 다운로드 및 실행 (Dual Editions)
 
-1. **`RescenePomodoro-v1.0.0-win-x64.zip`**을 다운로드하여 압축을 풉니다.
-2. `RescenePomodoro.exe`를 실행하면 바로 사용할 수 있습니다. (.NET 런타임 불필요)
+* **⚡ 초경량 에디션 (Lightweight, 15MB)**: `RescenePomodoro-v1.0.1-Lightweight-win-x64.zip` 또는 `RescenePomodoro-Lightweight.exe` (.NET 8 런타임 공유)
+* **📦 완전 독립 에디션 (Standalone, 100MB)**: `RescenePomodoro-v1.0.1-Standalone-win-x64.zip` 또는 `RescenePomodoro-Standalone.exe` (무설치 단일 파일)
