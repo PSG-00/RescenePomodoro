@@ -1,0 +1,26 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+publish/
+dist/
+test_standalone/
+
+# User-specific & local runtime files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+settings.json
+crash.log
+*.log
+
+# IDE & Editor files
+.vs/
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

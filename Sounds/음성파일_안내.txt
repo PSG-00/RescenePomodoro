@@ -1,0 +1,29 @@
+✨ RESCENE 멤버별 음성 파일 안내 ✨
+
+이 폴더에 각 멤버별 음성 파일(.mp3 또는 .wav)을 넣어주시면,
+집중 모드 시작 / 휴식 모드 시작 시 해당 멤버의 목소리가 자동으로 재생됩니다!
+
+[파일명 규칙]
+1. 원이 (woni)
+   - woni_focus.mp3 (또는 .wav) : 집중 모드 시작할 때
+   - woni_break.mp3 (또는 .wav) : 휴식 모드 시작할 때
+
+2. 리브 (liv)
+   - liv_focus.mp3 (또는 .wav)   : 집중 모드 시작할 때
+   - liv_break.mp3 (또는 .wav)   : 휴식 모드 시작할 때
+
+3. 미나미 (minami)
+   - minami_focus.mp3 (또는 .wav): 집중 모드 시작할 때
+   - minami_break.mp3 (또는 .wav): 휴식 모드 시작할 때
+
+4. 메이 (may)
+   - may_focus.mp3 (또는 .wav)   : 집중 모드 시작할 때
+   - may_break.mp3 (또는 .wav)   : 휴식 모드 시작할 때
+
+5. 제나 (zena)
+   - zena_focus.mp3 (또는 .wav)  : 집중 모드 시작할 때
+   - zena_break.mp3 (또는 .wav)  : 휴식 모드 시작할 때
+
+💡 팁:
+* 확장자는 .mp3와 .wav 둘 다 지원합니다.
+* 특정 멤버의 음성 파일이 아직 없더라도 걱정하지 마세요! 파일이 없는 경우 기본 시스템 알림음이 부드럽게 재생됩니다.
