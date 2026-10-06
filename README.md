@@ -1,6 +1,6 @@
 # ✨ RESCENE 데스크톱 뽀모도로 위젯 (RESCENE Pomodoro Pet)
 
-[![Version](https://img.shields.io/badge/Release-v1.0.1-007AFF?style=for-the-badge&logo=github)](https://github.com/PSG-00/RescenePomodoro/releases)
+[![Version](https://img.shields.io/badge/Release-v1.0.2-007AFF?style=for-the-badge&logo=github)](https://github.com/PSG-00/RescenePomodoro/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10_%7C_11_(x64)-0078D6?style=for-the-badge&logo=windows)](https://github.com/PSG-00/RescenePomodoro/releases)
 [![RAM Usage](https://img.shields.io/badge/RAM_Optimized-~26MB-28CD41?style=for-the-badge&logo=speedtest)](https://github.com/PSG-00/RescenePomodoro)
 [![Developer](https://img.shields.io/badge/Developer-PSG--00-black?style=for-the-badge&logo=github)](https://github.com/PSG-00)
@@ -17,9 +17,9 @@
 취향과 PC 환경에 따라 **2가지 에디션** 중 선택하여 다운로드하실 수 있습니다:
 
 | 에디션 | 용량 | 특징 | 다운로드 링크 |
-| :--- | :---: | :--- | :---: |
-| **⚡ 초경량 에디션 (Lightweight)** | **약 15 MB** | • 초고속 다운로드<br/>• Windows에 설치된 .NET 8 런타임 공유 사용 | [**📦 ZIP 풀패키지 (15MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-v1.0.1-Lightweight-win-x64.zip)<br/>[**🚀 단일 EXE (15MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-Lightweight.exe) |
-| **📦 완전 독립 에디션 (Standalone)** | **약 100 MB** | • .NET 런타임 내장 (사전 설치 불필요)<br/>• 어떤 PC에서도 무조건 더블클릭 즉시 실행 | [**📦 ZIP 풀패키지 (109MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-v1.0.1-Standalone-win-x64.zip)<br/>[**🚀 단일 EXE (99MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-Standalone.exe) |
+| :--- | :---: | :--- | :--- |
+| **⚡ 초경량 에디션 (Lightweight)** | **약 15 MB** | • 초고속 다운로드<br/>• Windows에 설치된 .NET 8 런타임 공유 사용 | [**📦 ZIP 풀패키지 (15MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-v1.0.2-Lightweight-win-x64.zip)<br/>[**🚀 단일 EXE (15MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-Lightweight.exe) |
+| **📦 완전 독립 에디션 (Standalone)** | **약 100 MB** | • .NET 런타임 내장 (사전 설치 불필요)<br/>• 어떤 PC에서도 무조건 더블클릭 즉시 실행 | [**📦 ZIP 풀패키지 (109MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-v1.0.2-Standalone-win-x64.zip)<br/>[**🚀 단일 EXE (99MB)**](https://github.com/PSG-00/RescenePomodoro/releases/latest/download/RescenePomodoro-Standalone.exe) |
 
 > 📌 지난 버전 및 전체 릴리스 목록은 **[GitHub Releases 페이지](https://github.com/PSG-00/RescenePomodoro/releases)**에서 확인하실 수 있습니다.
 
