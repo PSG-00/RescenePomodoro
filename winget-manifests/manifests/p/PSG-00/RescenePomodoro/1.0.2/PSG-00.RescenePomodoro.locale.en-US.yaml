@@ -1,0 +1,27 @@
+﻿# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: PSG-00.RescenePomodoro
+PackageVersion: 1.0.2
+PackageLocale: en-US
+Publisher: PSG-00
+PublisherUrl: https://github.com/PSG-00
+PublisherSupportUrl: https://github.com/PSG-00/RescenePomodoro/issues
+Author: PSG-00
+PackageName: RESCENE Pomodoro Pet
+PackageUrl: https://github.com/PSG-00/RescenePomodoro
+License: MIT
+LicenseUrl: https://github.com/PSG-00/RescenePomodoro/blob/main/LICENSE
+Copyright: Copyright (c) 2026 PSG-00
+ShortDescription: Mascot Pomodoro Timer Widget for Windows featuring K-pop group RESCENE
+Description: A lightweight, desktop mascot Pomodoro timer widget featuring K-pop girl group RESCENE members (Woni, Liv, Minami, May, Zena) with member signature color themes, PerMonitorV2 high-DPI rendering, and ultra-low RAM usage (~26MB).
+Moniker: rescenepomodoro
+Tags:
+  - desktop-pet
+  - pomodoro
+  - timer
+  - widget
+  - rescene
+  - kpop
+  - productivity
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

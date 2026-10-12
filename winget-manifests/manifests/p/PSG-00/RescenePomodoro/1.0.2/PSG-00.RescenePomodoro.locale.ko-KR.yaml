@@ -1,0 +1,24 @@
+﻿# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.6.0.schema.json
+
+PackageIdentifier: PSG-00.RescenePomodoro
+PackageVersion: 1.0.2
+PackageLocale: ko-KR
+Publisher: PSG-00
+PublisherUrl: https://github.com/PSG-00
+PublisherSupportUrl: https://github.com/PSG-00/RescenePomodoro/issues
+Author: PSG-00
+PackageName: RESCENE 뽀모도로 펫
+PackageUrl: https://github.com/PSG-00/RescenePomodoro
+License: MIT
+LicenseUrl: https://github.com/PSG-00/RescenePomodoro/blob/main/LICENSE
+Copyright: Copyright (c) 2026 PSG-00
+ShortDescription: 걸그룹 리센느(RESCENE) 마스코트 윈도우 데스크톱 뽀모도로 타이머 위젯
+Description: 윈도우 바탕화면에서 항상 위에 떠서 함께 집중하고 휴식할 수 있는 리센느 마스코트 뽀모도로 타이머입니다. 5인 멤버별 고유 상징색 테마, 2.5K/4K 고해상도 선명도 지원, 초경량 26MB RAM 최적화가 적용되어 있습니다.
+Tags:
+  - 뽀모도로
+  - 타이머
+  - 위젯
+  - 리센느
+  - 생산성
+ManifestType: locale
+ManifestVersion: 1.6.0
